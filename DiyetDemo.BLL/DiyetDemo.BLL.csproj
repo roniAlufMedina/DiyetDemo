@@ -1,0 +1,17 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>net6.0</TargetFramework>
+    <ImplicitUsings>enable</ImplicitUsings>
+    <Nullable>enable</Nullable>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\DiyetDemo.Core\DiyetDemo.Core.csproj" />
+    <ProjectReference Include="..\DiyetDemo.DAL\DiyetDemo.DAL.csproj" />
+    <ProjectReference Include="..\DiyetDemo.Entities\DiyetDemo.Entities.csproj" />
+    <ProjectReference Include="..\System\DiyetDemo.System.csproj" />
+    <ProjectReference Include="..\ViewModels\DiyetDemo.ViewModels.csproj" />
+  </ItemGroup>
+
+</Project>
